@@ -6,10 +6,10 @@
 
 .title {
     color: #eeeeee;
-    font-size: 300%;
+    font-size: 2.8em;
     font-family: 'Cutive Mono', monospace;
     margin: .25em;
-    margin-top: 1.75em;
+    margin-top: 1.6em;
 }
 
 .tagline {
@@ -78,7 +78,7 @@ a:hover {
     color: #777777;
     margin: 1em;
     margin-bottom: .5em;
-    font-size: 1.75em;
+    font-size: 1.3em;
     transition: all .5s
 }
 
