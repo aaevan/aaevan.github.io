@@ -47,11 +47,12 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     font-family: 'Cutive Mono', monospace;
+    margin-bottom: 8em;
 }
 
 .project {
-    min-width: 25em;
-    min-height: 15em;
+    width: 25em;
+    height: 15em;
     height: 20em;
     border-style: solid;
     border-width: .1em;
@@ -59,28 +60,50 @@ body {
     /*margin: .5em;*/
     color: white;
     overflow: auto;
+    background-image: url("images/preview_test.png");
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    transition: all .25s;
+}
+
+.project h2 {
+    color: #777777;
+    margin: 1em;
+    margin-bottom: .5em;
+    font-size: 1.75em;
+    transition: all .5s
+}
+
+.project:hover h2 {
+    color: #ffffff;
+    transition: all .5s
+}
+
+.project p {
+    margin-left: 2em;
+    margin-right: 2em;
+    opacity: 0;
+    transition: all .5s
+}
+
+.project:hover p {
+    opacity: 1;
+    transition: all .5s
 }
 
 .project:hover {
+    /*background-size: 118%;*/
     border-color: #dddddd;
+    color: #ffffff;
+    transition: all .5s;
+    background-image: url("images/test_gif.gif");
 }
 
+{/*
 @media only screen and (max-width: 55em) {
     [class="project"] {
         width: 100%;
     }
 }
-
-.p1 {
-    background-image: url("images/preview_test.png");
-    background-position: center;
-    background-size: 110%;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-
-.p1:hover {
-    /*background-size: 118%;*/
-    transition: all .5s;
-    background-image: url("images/test_gif.gif");
-}
+*/}
