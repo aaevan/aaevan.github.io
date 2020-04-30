@@ -31,7 +31,8 @@ const projects = [
     id: "pantryTracker",
     description: "large satisfying buttons, notifications and a usb scale (featuring horrible manual byte manipulation)",
     image: "images/pantry_monitor_1.png",
-    hoverImage: "images/pantry_monitor_2.png",
+    hoverImage: "images/pantry_monitor_1.png",
+    //hoverImage: "images/pantry_monitor_2.png",
     site: "https://github.com/aaevan/pantry-monitor"
   },
   {
