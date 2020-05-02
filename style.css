@@ -108,6 +108,6 @@ a:hover {
 }
 
 {/* A hack to apply styling to a static image */}
-#pantryTracker:hover {
+#pantryMonitor:hover {
     background-size: 120%;
 }

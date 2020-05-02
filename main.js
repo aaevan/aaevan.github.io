@@ -28,11 +28,10 @@ const projects = [
   },
   {
     name: "pantry-monitor",
-    id: "pantryTracker",
+    id: "pantryMonitor",
     description: "large satisfying buttons, notifications and a usb scale (featuring horrible manual byte manipulation)",
     image: "images/pantry_monitor_1.png",
     hoverImage: "images/pantry_monitor_1.png",
-    //hoverImage: "images/pantry_monitor_2.png",
     site: "https://github.com/aaevan/pantry-monitor"
   },
   {
@@ -50,6 +49,14 @@ const projects = [
     image: "images/holzer_hotkey.png",
     hoverImage: "images/holzer_hotkey.gif",
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/randquote.sh"
+  },
+  {
+    name: "avr_cricket",
+    id: "cricket",
+    description: "(2014) An imitation cricket using an ATtiny85. changes delay between chirps based on temperature",
+    image: "images/avr_cricket.png",
+    hoverImage: "images/avr_cricket.gif",
+    site: "https://github.com/aaevan/avr_cricket"
   },
 ]
 
