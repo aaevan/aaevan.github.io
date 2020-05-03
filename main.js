@@ -21,7 +21,7 @@ const projects = [
   {
     name: "pomodoro.sh",
     id: "pomdoro",
-    description: "leverages osd_cat to write directly to the screen. a tool I made for myself and use daily.",
+    description: "\nleverages osd_cat to write directly to the screen. a tool I made for myself and use daily.",
     image: "images/pomodoro.png",
     hoverImage: "images/pomodoro.gif",
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/pomodoro.sh"
