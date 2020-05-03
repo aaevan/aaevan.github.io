@@ -43,9 +43,9 @@ const projects = [
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/flashy_bullshit"
   },
   {
-    name: "Survival Series hotkey (Jenny Holzer)",
+    name: "Jenny Holzer hotkey",
     id: "holzer",
-    description: "xbindkeys + shell script \n(why? because she's great)",
+    description: "pulls a random quote from Jenny Holzer's <i>Survival Series</i> and prints it to the screen using osd_cat",
     image: "images/holzer_hotkey.png",
     hoverImage: "images/holzer_hotkey.gif",
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/randquote.sh"

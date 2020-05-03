@@ -111,3 +111,7 @@ a:hover {
 #pantryMonitor:hover {
     background-size: 120%;
 }
+
+.project p {
+    background-color: rgba(0, 0, 0, .8);
+}
