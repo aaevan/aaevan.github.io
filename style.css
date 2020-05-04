@@ -107,11 +107,10 @@ a:hover {
 	text-shadow: 0px 4px 10 #fff;
 }
 
-{/* A hack to apply styling to a static image */}
 #pantryMonitor:hover {
     background-size: 120%;
 }
 
 .project p {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .7);
 }
