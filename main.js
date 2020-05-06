@@ -58,6 +58,16 @@ const projects = [
     hoverImage: "images/avr_cricket.gif",
     site: "https://github.com/aaevan/avr_cricket"
   },
+  {
+    name: "osd_cat_pixels.py",
+    id: "osdpixels",
+    description: "Manually write the pixels of a sprite to the screen in the least efficient possible way",
+    image: "images/osd_cat_pixels.png",
+    hoverImage: "images/osd_cat_pixels.gif",
+    site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/osd_cat_pixels.py"
+  },
+
+
 ]
 
 const main = () => {
