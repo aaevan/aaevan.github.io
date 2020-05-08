@@ -3,7 +3,8 @@ const projects = [
     name: "async game",
     id: "asyncGame",
     description:
-      "a real-time text based game in python using asyncio and blessed.",
+      "a real-time text based game in python using asyncio and blessed.\
+       [python]",
     image: "images/async_game.png",
     hoverImage: "images/async_game.gif",
     site: "https://github.com/aaevan/asyncio_text_game"
@@ -13,7 +14,8 @@ const projects = [
     id: "caveExplore",
     description:
       "early prototype of a 3D exploration game in javascript (react)\
-       mostly an excuse to learn react-three-fiber and learn react-hooks.",
+       mostly an excuse to learn react-three-fiber and learn react hooks.\
+       [javascript, react, react-three-fiber]",
     image: "images/caveExplore.png",
     hoverImage: "images/caveExplore.gif",
     site: "https://github.com/aaevan/caveExplore"
@@ -22,8 +24,8 @@ const projects = [
     name: "pomodoro.sh",
     id: "pomdoro",
     description: 
-      "leverages osd_cat to write directly to the screen. a tool I\
-       made for myself and use daily.",
+      "keeps track of work and break times. uses osd_cat to write directly to\
+       the screen. a tool I made for myself and use daily. [bash]",
     image: "images/pomodoro.png",
     hoverImage: "images/pomodoro.gif",
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/pomodoro.sh"
@@ -33,7 +35,8 @@ const projects = [
     id: "pantryMonitor",
     description: 
       "uses large satisfying buttons, notifications and a usb scale\
-       to track pantry staples. features horrible manual byte manipulation.",
+       to track pantry staples. features horrible manual byte manipulation.\
+       [raspi, python, bash]",
     image: "images/pantry_monitor_1.png",
     hoverImage: "images/pantry_monitor_1.png",
     site: "https://github.com/aaevan/pantry-monitor"
@@ -41,7 +44,9 @@ const projects = [
   {
     name: "flashy_bullshit.sh\n(flashing lights)",
     id: "flashy",
-    description: "aggresively garish text that overdraws everything else (thanks again to osd_cat)",
+    description: 
+      "aggresively garish text that overwrites everything else,\
+       [python, bash]",
     image: "images/flashy_bullshit.png",
     hoverImage: "images/flashy_bullshit.gif",
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/flashy_bullshit"
@@ -49,7 +54,9 @@ const projects = [
   {
     name: "osd_cat_pixels.py",
     id: "osdpixels",
-    description: "a ridiculously inefficient way of drawing sprites to the screen. spawns a new osd_cat process for each pixel.",
+    description: 
+      "a ridiculously inefficient way of drawing sprites to the screen. spawns\
+       a new osd_cat process for each pixel. [bash]",
     image: "images/osd_cat_pixels.png",
     hoverImage: "images/osd_cat_pixels.gif",
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/osd_cat_pixels.py"
@@ -57,7 +64,8 @@ const projects = [
   {
     name: "Jenny Holzer hotkey",
     id: "holzer",
-    description: "pulls a random quote from Jenny Holzer's <a href='http://www.arthistoryarchive.com/arthistory/contemporary/Jenny-Holzer.html'><i>Survival Series</i></a> and prints it to the screen using osd_cat. uses xbindkeys for keyboard binding.",
+    description: `pulls a random quote from Jenny Holzer's <a href='http://www.arthistoryarchive.com/arthistory/contemporary/Jenny-Holzer.html'><i>Survival Series</i></a>
+     and prints it to the screen. [xbindkeys, osd_cat, bash]`,
     image: "images/holzer_hotkey.png",
     hoverImage: "images/holzer_hotkey.gif",
     site: "https://github.com/aaevan/aaevan_rc_files/blob/master/scripts/randquote.sh"
