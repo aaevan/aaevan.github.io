@@ -96,7 +96,7 @@ a:hover {
 
 .project:hover p {
     opacity: 1;
-    transition: all .5s
+    transition: all .75s
 }
 
 .project:hover {
@@ -113,4 +113,8 @@ a:hover {
 
 .project p {
     background-color: rgba(0, 0, 0, .7);
+}
+
+.project:hover p a {
+    color: #f00;
 }

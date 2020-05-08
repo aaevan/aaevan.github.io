@@ -3,7 +3,9 @@ const projects = [
     name: "async game",
     id: "asyncGame",
     description:
-      "a real-time text based game in python using asyncio and blessed.\
+      "a real-time text based game in python using\
+      <a href='https://docs.python.org/3/library/asyncio.html'>asyncio</a> \
+      and <a href='https://pypi.org/project/blessed/'>blessed</a>.\
        [python]",
     image: "images/async_game.png",
     hoverImage: "images/async_game.gif",
@@ -42,7 +44,7 @@ const projects = [
     site: "https://github.com/aaevan/pantry-monitor"
   },
   {
-    name: "flashy_bullshit.sh\n(flashing lights)",
+    name: "flashy_bullshit.sh\n(caution: flashing lights)",
     id: "flashy",
     description: 
       "aggresively garish text that overwrites everything else,\
