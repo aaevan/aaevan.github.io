@@ -12,7 +12,7 @@ const projects = [
     site: "https://github.com/aaevan/asyncio_text_game"
   },
   {
-    name: "led_borddr",
+    name: "led_border",
     id: "ledborder",
     description:
         "A v. hacky edge of screen media ambience light. [bash, arduino,\
