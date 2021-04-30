@@ -50,7 +50,7 @@ const projects = [
        to track pantry staples. features horrible manual byte manipulation.\
        [raspi, python, bash]",
     image: "images/pantry_monitor.png",
-    hoverImage: "images/pantry_monitor.png",
+    hoverImage: "images/pantry_monitor.gif",
     site: "https://github.com/aaevan/pantry-monitor"
   },
   {
