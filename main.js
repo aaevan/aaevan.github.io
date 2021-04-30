@@ -49,8 +49,8 @@ const projects = [
       "uses large satisfying buttons, notifications and a usb scale\
        to track pantry staples. features horrible manual byte manipulation.\
        [raspi, python, bash]",
-    image: "images/pantry_monitor_1.png",
-    hoverImage: "images/pantry_monitor_1.png",
+    image: "images/pantry_monitor.png",
+    hoverImage: "images/pantry_monitor.png",
     site: "https://github.com/aaevan/pantry-monitor"
   },
   {
